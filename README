@@ -1,13 +1,25 @@
 # sudoku
 
-FIXME: write description
+A simple and not-that-smart-yet sudoku solver.
 
 ## Usage
 
-FIXME: write
+use the solve-grid (core.clj) and read-grid (grid.clj) to point to a file containing a sudoku looking something like this:
+
+5 0 0 9 0 0 0 2 0
+0 0 1 0 8 0 0 6 0
+0 4 0 0 0 2 3 1 0
+0 0 0 7 0 0 6 0 1
+2 0 0 6 3 0 0 0 8
+0 8 7 4 0 1 5 3 0
+0 5 0 0 0 0 1 0 7
+4 0 9 1 0 0 0 0 0
+0 6 0 0 0 9 0 0 3
+
+With zeros for the empty places. 
 
 ## License
 
-Copyright (C) 2011 FIXME
+Copyright (C) 2011 Robin Ramael
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Do whatever you want with it, but be nice and let me know if you do.
