@@ -1,5 +1,5 @@
-(ns sudoku.core
-  (:use sudoku.grid sudoku.util clojure.set))
+(ns kaiketsu.core
+  (:use kaiketsu.grid kaiketsu.util clojure.set))
 
 ;; get the indexes of the values that are not filled in yet in this col (nil)
 (defn missing-idxs [coll]

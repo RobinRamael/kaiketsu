@@ -1,4 +1,4 @@
-(ns sudoku.util)
+(ns kaiketsu.util)
 
 
 (defn ** [n] (* n n))

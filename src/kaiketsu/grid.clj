@@ -1,5 +1,5 @@
-(ns sudoku.grid
-  (:use sudoku.util)
+(ns kaiketsu.grid
+  (:use kaiketsu.util)
   (:require [clojure.string :as str]))
 
 ;; make a square grid with the given length of sides.
